@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>privacy policy · onidoku</title>
+  <meta name="description" content="onidoku has no account, no ads, no analytics and no server of its own. we don't collect, receive, sell or share any of your data." />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#6d4aff" />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Source text: apps/extension/store/privacy-policy.md in onidoku/app. Keep the two in sync. -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="./" aria-label="onidoku home">
+        <img src="logo.svg" width="32" height="32" alt="" />
+        <span>onidoku</span>
+      </a>
+      <nav aria-label="sections"></nav>
+      <a class="btn btn-small btn-ghost" href="./">back to home</a>
+    </div>
+  </header>
+
+  <main class="doc wrap narrow">
+    <h1>privacy policy</h1>
+    <p class="doc-date">effective october 12, 2026</p>
+
+    <p>onidoku is a browser extension for reading comics and novels. it has no account, no ads, no analytics and no server of its own. <b>we don't collect, receive, sell or share any of your data.</b></p>
+
+    <h2>what stays on your device</h2>
+    <p>everything onidoku keeps is stored in the extension's own storage in your browser:</p>
+    <ul>
+      <li><b>your library:</b> the series you add (title, cover link, description, chapter list), your reading progress and which chapters are new.</li>
+      <li><b>your sources:</b> the site configs you install, and on Chrome and Edge, any Paperback sources you install and their settings.</li>
+      <li><b>your settings:</b> reader preferences (themes, fonts, reading mode) and extension settings.</li>
+      <li><b>media server logins:</b> the address of any Komga or Kavita server you connect, and its API key or username and password.</li>
+    </ul>
+    <p>none of this is sent to us. it's deleted when you uninstall onidoku. <b>export backup</b> saves your library to a file on your device, and leaves out server logins and Paperback sources.</p>
+
+    <h2>what onidoku connects to</h2>
+    <p>onidoku only makes requests to places you chose:</p>
+    <ul>
+      <li><b>sites you added as sources:</b> to show series and chapters, search and explore them, and check them for new chapters in the background. these requests are like visiting the site yourself: the site sees your IP address, and your browser sends your cookies for that site. on Chrome and Edge, Paperback sources can read your browser's cookies for the source's own site (for example a login or a Cloudflare check) and send them only to that site.</li>
+      <li><b>your Komga or Kavita server:</b> to browse your libraries, read, and sync read progress. your login is sent only to that server.</li>
+      <li><b>Paperback repos you add:</b> to list and download their sources.</li>
+    </ul>
+    <p>with <b>offer the reader on chapter pages of any site</b> turned on, onidoku looks at pages you open to see if they're chapters. that check happens on your device and nothing is sent anywhere.</p>
+
+    <h2>permissions</h2>
+    <ul>
+      <li><b>storage, unlimited storage:</b> keep your library, sources and settings in the extension's storage.</li>
+      <li><b>alarms, notifications:</b> check for new chapters in the background and tell you when there are some.</li>
+      <li><b>active tab, scripting:</b> open the reader and the "open in onidoku" card on the page you're reading.</li>
+      <li><b>access to sites:</b> asked for one site at a time when you add a source, or for all sites if you turn on the reader for any site or use Paperback sources. you can remove it any time in your browser's extension settings.</li>
+      <li><b>Chrome and Edge only, for Paperback sources:</b> offscreen documents (to run each source in its own sandbox), declarative net request (to send the headers a source's site expects, like a referer) and cookies (see above).</li>
+    </ul>
+
+    <h2>children</h2>
+    <p>onidoku isn't directed at children and doesn't knowingly handle any personal information about anyone.</p>
+
+    <h2>changes</h2>
+    <p>if this policy changes, the new version will be posted on this page with a new date.</p>
+
+    <h2>contact</h2>
+    <p><a href="mailto:onidoku@proton.me">onidoku@proton.me</a>, or open an issue on <a href="https://github.com/onidoku/app/issues">GitHub</a>.</p>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="brand">
+        <img src="logo.svg" width="24" height="24" alt="" />
+        <span>onidoku</span>
+      </div>
+      <nav aria-label="footer">
+        <a href="https://github.com/onidoku/app">GitHub</a>
+        <a href="https://github.com/onidoku/app/blob/main/CONTENT_POLICY.md">content policy</a>
+        <a href="privacy.html">privacy</a>
+        <a href="mailto:onidoku@proton.me">contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -871,3 +871,38 @@ kbd {
     justify-self: start;
   }
 }
+
+/* text pages (privacy policy) */
+.doc {
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.doc h1 {
+  font-size: clamp(40px, 6vw, 60px);
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+}
+
+.doc h2 {
+  font-size: 24px;
+  margin: 40px 0 12px;
+}
+
+.doc-date {
+  color: var(--muted);
+  margin-bottom: 32px;
+}
+
+.doc ul {
+  padding-left: 20px;
+  margin: 0 0 16px;
+}
+
+.doc li {
+  margin-bottom: 8px;
+}
+
+.doc li::marker {
+  color: var(--accent);
+}
