@@ -195,17 +195,6 @@ p {
   box-shadow: none;
 }
 
-.btn-soon {
-  background: var(--bg-alt);
-  color: var(--muted);
-  cursor: default;
-}
-
-.btn-soon:hover {
-  transform: none;
-  box-shadow: none;
-}
-
 .cta {
   display: flex;
   flex-wrap: wrap;
